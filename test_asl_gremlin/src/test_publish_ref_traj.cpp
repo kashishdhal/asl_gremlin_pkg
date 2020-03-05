@@ -13,7 +13,7 @@ int main(int argc, char** argv)
                              10);
 
     std::ifstream ref_traj_data;
-    ref_traj_data.open("/home/vnv/asl_gremlin1/src/test_asl_gremlin/src/matlab_data/reference_trajectory.txt",
+    ref_traj_data.open("/home/$USER/asl_gremlin1/src/test_asl_gremlin/src/matlab_data/reference_trajectory.txt",
                         std::ifstream::in);
     
     std::string first_line;
